@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "etl-pipeline"
+version = "0.1.0"
+description = ""
+authors = ["derrick"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9.2,<3.12"
+apache-airflow = "^2.9.3"
+xmltodict = "^0.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
